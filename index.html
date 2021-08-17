@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title>SubSpace Wrestling</title>
+        <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Subspace Wrestling">
+        <meta property="og:description" content="Welcome to the world of SubSpace Wrestling">
+        <meta property="og:image" content="/assets/favicon.png">
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    </head>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            line-height: 1.5;
+            color: #606c71;
+        }
+        
+        body {
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+    </style>
+    <body>
+        <style>
+            .pages {
+                background-color: rgb(35, 4, 75);
+                padding-top: 15px;
+                padding-bottom: 15px;
+                padding-left: 400px;
+                display: grid;
+                grid-template-columns: 200px 200px 200px 200px 200px;
+                color: rgba(201, 201, 201, 0.986);
+            }
+            .carousel {
+                background: #EEE;
+            }
+            .carousel-cell {
+                display: grid;
+                grid-template-rows: 400px 20px;
+                width: 160px;
+                height: 470px;
+                margin-right: 50px;
+                background: rgba(212, 212, 212, 0.349);
+                border-radius: 5px;
+            }
+
+            /* cell number */
+            .carousel-cell:before {
+              display: block;
+              text-align: center;
+              line-height: 200px;
+              font-size: 80px;
+              color: white;
+            }
+            .wrestler-img {
+                width: 160px;
+                height: 400px;
+            }
+            .blob{
+                padding-left: 500px;
+                padding-top: 25px;
+                padding-bottom: 25px;
+                background-image: linear-gradient(120deg, rgb(88, 0, 88), rgb(31, 0, 31));
+                display: grid;
+                grid-template-columns: 300px 500px;
+            }
+            .blob-ssw{
+                display: grid;
+                grid-template-rows: 70px 130px;
+            }
+            .wrestler-prev-link{
+                text-decoration: none;
+                color: rgb(44, 44, 44);
+            }
+            .pages-link{
+                text-decoration: none;
+                color: white;
+            }
+        </style>
+        <section class="pages">
+            <a class="pages-link" href="index.html"><p>Homepage</p></a>
+            <a class="pages-link" href="story"><p>Story</p></a>
+            <a class="pages-link" href="schedule"><p>Schedule</p></a>
+            <a class="pages-link" href="wrestlers"><p>Wrestlers</p></a>
+            <a class="pages-link" href="episodes"><p>Episodes</p></a>
+            <a class="pages-link" href="episodes"><p>RSS Feed</p></a>
+        </section>
+        <section class="blob">
+            <img style="width: 200px;height:200px;border-radius: 8px;" src="assets/faviconHQ.png">
+            <div class="blob-ssw">
+                <p style="color: rgb(255, 255, 255);font-size: 30px;font-weight: bold;">Subspace Wrestling</p>
+                <p style="color: rgb(255, 255, 255);">Subspace Wrestling is a joke made by a wrestling fanatic for a friend group (SubSpace) that just became entertaining as hell and streamed on twitch to like 1 person. It has lore such as backstories, rivalries,<span style="text-decoration: line-through;text-decoration-thickness: 2px;">romances</span> no romances, but mostly shitposts.</p>
+            </div>
+        </section>
+        <section class="wrestlers-preview" style="padding-top: 40px;">
+            <div class="main-carousel"  data-flickity='{ "wrapAround": true }'>
+                <a href="assets/" class="wrestler-prev-link"><div class="carousel-cell"><img class="wrestler-img" src="https://files.catbox.moe/xgf5m5.png"><p style="padding-left: 30px;font-weight: bold;">Aaron Danger</p></div></a>
+                <a href="assets/" class="wrestler-prev-link"><div class="carousel-cell"><img class="wrestler-img" src="https://files.catbox.moe/zg9kv7.png"><p style="padding-left: 30px;font-weight: bold;">Tsar Bomba</p></div></a>
+                <a href="assets/" class="wrestler-prev-link"><div class="carousel-cell"><img class="wrestler-img" src="https://files.catbox.moe/5jdmtr.png"><p style="padding-left: 30px;font-weight: bold;">GreenJ</p></div></a>
+                <a href="assets/" class="wrestler-prev-link"><div class="carousel-cell"><img class="wrestler-img" src="https://files.catbox.moe/5jdmtr.png"><p style="padding-left: 30px;font-weight: bold;">Milk</p></div></a>
+                <a href="assets/" class="wrestler-prev-link"><div class="carousel-cell"><img class="wrestler-img" src="https://files.catbox.moe/5jdmtr.png"><p style="padding-left: 30px;font-weight: bold;">Chanada</p></div></a>
+                <a href="assets/" class="wrestler-prev-link"><div class="carousel-cell"><img class="wrestler-img" src="https://files.catbox.moe/5jdmtr.png"><p style="padding-left: 30px;font-weight: bold;">Jax</p></div></a>
+                <a href="assets/" class="wrestler-prev-link"><div class="carousel-cell"><img class="wrestler-img" src="https://files.catbox.moe/5jdmtr.png"><p style="padding-left: 30px;font-weight: bold;">Danny Afton</p></div></a>
+                <a href="assets/" class="wrestler-prev-link"><div class="carousel-cell"><img class="wrestler-img" src="https://files.catbox.moe/5jdmtr.png"><p style="padding-left: 30px;font-weight: bold;">Neutered</p></div></a>
+                <a href="assets/" class="wrestler-prev-link"><div class="carousel-cell"><img class="wrestler-img" src="https://files.catbox.moe/5jdmtr.png"><p style="padding-left: 30px;font-weight: bold;">Broken Autismos</p></div></a>
+                <a href="assets/" class="wrestler-prev-link"><div class="carousel-cell"><img class="wrestler-img" src="https://files.catbox.moe/5jdmtr.png"><p style="padding-left: 30px;font-weight: bold;">Fluffy</p></div></a>
+                <a href="assets/" class="wrestler-prev-link"><div class="carousel-cell"><img class="wrestler-img" src="https://files.catbox.moe/5jdmtr.png"><p style="padding-left: 30px;font-weight: bold;">Soy Boy</p></div></a>
+                <a href="assets/" class="wrestler-prev-link"><div class="carousel-cell"><img class="wrestler-img" src="https://files.catbox.moe/5jdmtr.png"><p style="padding-left: 30px;font-weight: bold;">K1ng</p></div></a>
+                <a href="assets/" class="wrestler-prev-link"><div class="carousel-cell"><img class="wrestler-img" src="https://files.catbox.moe/5jdmtr.png"><p style="padding-left: 30px;font-weight: bold;">The Velveteen Dream</p></div></a>
+            </div>
+        </section>
+    </body>
+</html>
