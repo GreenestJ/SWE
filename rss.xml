@@ -2,15 +2,19 @@
 <rss version="2.0">
     <channel>
         <title>Subspace Wrestling</title>
+        <image><url>https://greenj.net/SWE/assets/faviconHQ.png</url></image>
+        <language>en-us</language>
+        <lastBuildDate>August 17th, 2021 11:26 CST</lastBuildDate>
+        <managingEditor>GreenJ</managingEditor>
         <link>https://www.greenj.net/SWE</link>
         <description>Updates to the SubSpace Wrestling Universe.</description>
         <item>
             <title>Test</title>
             <link>https://greenj.net/SWE/episode</link>
             <guid>https://greenj.net/SWE/episode</guid>
-            <pubDate>Wed, 27 Nov 2013 15:17:32 GMT 
-            (Note: The date must be in this format)</pubDate>
+            <pubDate>Wed, 27 Nov 2013 15:17:32 GMT</pubDate>
             <description>Testing this out.</description>
+            <author>GreenJ</author>
         </item>
     </channel>
 </rss>
