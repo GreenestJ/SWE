@@ -10,17 +10,9 @@
         <description>Updates to the SubSpace Wrestling Universe.</description>
         <item>
             <title>Test</title>
-            <link>https://greenj.net/SWE/episode</link>
-            <guid>https://greenj.net/SWE/episode</guid>
-            <pubDate>Wed, 27 Nov 2013 15:17:32 GMT</pubDate>
-            <description>Testing this out.</description>
-            <author>GreenJ</author>
-        </item>
-        <item>
-            <title>Test 2</title>
-            <link>https://greenj.net/SWE/episode/1</link>
-            <guid>https://greenj.net/SWE/episode/1</guid>
-            <pubDate>August 17th, 2021 11:26 CST</pubDate>
+            <link>https://greenj.net/SWE/404</link>
+            <guid>https://greenj.net/SWE/404</guid>
+            <pubDate>Wed, 18 Aug 2021 17:52:35 CST</pubDate>
             <description>Testing this out.</description>
             <author>GreenJ</author>
         </item>
