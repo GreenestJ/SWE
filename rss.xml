@@ -16,5 +16,13 @@
             <description>Testing this out.</description>
             <author>GreenJ</author>
         </item>
+        <item>
+            <title>Test 2</title>
+            <link>https://greenj.net/SWE/episode/1</link>
+            <guid>https://greenj.net/SWE/episode/1</guid>
+            <pubDate>August 17th, 2021 11:26 CST</pubDate>
+            <description>Testing this out.</description>
+            <author>GreenJ</author>
+        </item>
     </channel>
 </rss>
